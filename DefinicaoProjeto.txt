@@ -1,0 +1,40 @@
+Definição do Projeto Desenvolvido no Curso de Lógica de Programação III
+
+Nome: Todo App
+
+Descrição: Aplicação para o gerenciamento de projetos e as tarefas envolvidas no mesmo.
+
+Objetivo: Resolver a questão de organização de tarefas de um ou mais projetos.
+
+Entidades:
+    - Projeto:
+        - Nome;
+        - Descrição;
+        - Data de criação;
+        - Data de Atualização.
+    - Tarefa:
+        - Nome;
+        - Descrição;
+        - Status;
+        - Observações;
+        - Prazo;
+        - Data de Criação;
+        - Data de Atualização.
+
+Requisitos:
+    - Permitir criar a Projeto;
+    - Permitir alterar o Projeto;
+    - Permitir excluir o Projeto;
+
+    - Permitir criar a Tarefa;
+    - Permitir alterar a Tarefa;
+    - Permitir alterar a tarefa;
+
+Regras de negócio:
+    - Não irá conter um sistema de login;
+    - Não haverá o conceito de usuário;
+    - Toda tarefa deve pertencer a um projeto;
+
+Tecnologias utilizadas:
+    - Java;
+    - MySql;
